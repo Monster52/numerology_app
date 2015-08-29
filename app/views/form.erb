@@ -1,0 +1,25 @@
+<div class="row">
+  <div class="col-md-4">
+    <p>
+      Pythagoras and other philosophers of the time believed that becasue mathematical concepts were more "practical" (easier to regulate and classify)
+      than physical ones, they had greater actuality.  St. Augustine of Hippo (A.D. 354-430) wrote "Numbers are the Universal language offered by the deity 
+      to humans as confirmation of the truth."  Similar to Pythagoras, he too believed that everything had numerical relationships and it was up to the mind 
+      to seek and investigate the secrets of these relationships or have them revealed by divine grace. - Wikipedia
+    </p>
+    <p>
+      Use the form here to get your Numerology Message, or create a new person and get added to the list.
+    </p>
+  </div>
+  <form class="col-md-3" action="/" method="post">
+    <div class="form-group"
+      <% if @error %>
+        <lable for="birthdate"><%= @error %></lable>
+      <% else %>
+        <lable for="birthdate">Enter Your Birhtdate (MMDDYYYY)</lable>
+      <% end %>
+      <input class="form-control" name="birthdate" type="date">
+    </dvi>
+    <input type="submit">
+  </form>
+</div>
+

@@ -1,0 +1,30 @@
+<h1>People</h1>
+<table>
+  <thead>
+    <th>name</th>
+    <th>Birthdate</th>
+  </thead>
+  <tbody>
+    <% @people.each do |person| %>
+      <tr>
+        <td class="name-show">
+          <a href="people/<%=person.id%>">
+            <%= "#{person.first_name} #{person.last_name}" %>
+          </a>
+        </td>
+        <td class="birthdate-show">
+          <%= "#{person.birthdate}" %>
+        </td>
+        <td class="edit">
+          <a href="<%= "/people/#{person.id}/edit" %>">Edit</a>
+        </td>
+        <td>
+          <form class="delete" action="<%= "/people/#{person.id}" %>" method="post">
+            <input type="hidden" name="_method" value="delete" />
+            <input type="submit" class="btn btn-danger" value="X">
+          </form>
+        </td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>

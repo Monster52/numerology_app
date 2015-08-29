@@ -1,0 +1,74 @@
+/********GLOBAL********/
+body {
+  background-color: #A2B5CD;
+}
+
+#title {
+  color: #2F4F4F;
+}
+
+h1 {
+  color: #104E8B;
+}
+
+/********INDEX********/
+small {
+}
+
+/********SHOW********/
+.edit {
+  padding-left: 10px;
+  padding-top: 20px;
+}
+
+.delete {
+  padding-left: 10px;
+  margin-top: 20px;
+}
+
+.btn {
+  padding-left: -20px;
+}
+
+
+.name-show {
+  padding-top: 20px;
+}
+
+.name-show a:link {
+  color: #2F4F4F;
+}
+
+.name-show a:hover {
+  color: #104E8B;
+}
+
+.name-show a:visited {
+  color: #104E8B
+}
+
+.birthdate-show {
+  padding-top: 20px;
+}
+
+/********FORM********/
+.first_name {
+  margin-top: 20px;
+  padding-left: 20px;
+}
+
+.last_name {
+  margin-top: 20px;
+  padding-left: 20px;
+}
+
+.birthdate {
+  padding-left: 29px;
+  margin-top: 20px;
+}
+
+.submit {
+  padding-left: 120px;
+  margin-top: 20px;
+}
+
