@@ -6,6 +6,7 @@ require 'rubygems'
 require 'bundler/setup'
 require 'sinatra'
 require "sinatra/activerecord"
+require 'puma'
 
 require 'erb'
 
